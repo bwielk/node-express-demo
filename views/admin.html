@@ -1,0 +1,21 @@
+<html>
+    <title>ADMIN PAGE</title>
+    <body>
+       <h1>Admin Page</h1>
+       <h2>Add product</h2>
+       <header>
+           <nav>
+               <ul>
+                   <li><a href="/">Shop</a></li>
+                   <li><a href="/admin/add-product">Add product</a></li>
+               </ul>
+           </nav>
+       </header>
+       <main>
+           <form action="/admin/add-product" method="POST">
+            <input type="text" name="title" id="product-title">
+            <button type="submit">Add product</button>
+        </form>
+       </main>
+    </body>
+</html>
